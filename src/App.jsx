@@ -43,7 +43,6 @@ export default function App() {
           <Route path="profile" element={<Profile currentUser={currentUser} />} />
           <Route path="settings" element={<Settings />} />
           <Route path="student/:id" element={<StudentDetails students={students} />} />
-        </Route>
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
